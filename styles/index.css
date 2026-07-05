@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  height: 100vh;
+  background: var(--background);
+  transition: 0.25s;
+}
+:root {
+  --background: linear-gradient(135deg, #f7fff8, #ecfdf5, #dcfce7);
+}
+.dark {
+  --background: linear-gradient(135deg, #020617, #0f172a, #164e63);
+}
