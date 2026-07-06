@@ -13,13 +13,20 @@ body {
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
-  height: 100vh;
   background: var(--background);
   transition: 0.25s;
 }
 :root {
   --background: linear-gradient(135deg, #f7fff8, #ecfdf5, #dcfce7);
+  --background-inverse :linear-gradient(135deg, #020617, #0f172a, #164e63);
+  --text: #0f172a;
+  --text-muted: #475569; 
+  --section-bg: rgba(255, 255, 255, 0.1);
 }
 .dark {
   --background: linear-gradient(135deg, #020617, #0f172a, #164e63);
+  --background-inverse :linear-gradient(135deg, #f7fff8, #ecfdf5, #dcfce7);
+  --text: #f8fafc;
+  --text-muted: #cbd5e1;
+  --section-bg: rgba(15, 23, 42, 0.1);
 }
