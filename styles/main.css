@@ -20,7 +20,6 @@ main {
 }
 .porpuse {
   width: fit-content;
-  padding: 0px 3px;
   border-radius: 20px;
   height: 80%;
   display: flex;
@@ -43,7 +42,10 @@ main .porpuse h2 {
   width: 370px;
   height: 10%;
   font-size: 1.25rem;
-  background: var(--background);
+  background: var(--header-bg);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--header-border);
+  box-shadow: 0 8px 32px var(--header-shadow);
   margin: 0;
   text-align: center;
   border-top-left-radius: 18px;

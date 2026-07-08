@@ -1,15 +1,17 @@
-header{
+header {
   width: 100%;
   height: 75px;
   border-radius: 3px;
   position: sticky;
-  top:0;
-  background: rgba(78, 172, 123, 0.303) ;
-  backdrop-filter: blur(20px  );
-  display: flex;  
+  top: 0;
+  background: var(--header-bg);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--header-border);
+  box-shadow: 0 8px 32px var(--header-shadow);
+  display: flex;
   color: var(--text-muted);
 }
-header a{
+header a {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -20,15 +22,15 @@ header a{
   cursor: pointer;
   transition: 0.25s;
 }
-header a img{
+header a img {
   width: 150px;
 }
-header nav{
+header nav {
   width: 50%;
 }
-header nav ul{
+header nav ul {
   width: 100%;
-  height:100%;
+  height: 100%;
   padding: 0;
   margin: 0;
   display: flex;
@@ -36,35 +38,34 @@ header nav ul{
   font-size: 1.25rem;
   list-style: none;
 }
-header nav ul li{
+header nav ul li {
   height: 100%;
-  width:100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition:0.25s;
+  transition: 0.25s;
   user-select: none;
 }
 header nav ul li:hover {
-  box-shadow: 0px 3px  rgba(161, 161, 161, 0.336);
-  transform: scale(0.90)  ;
+  box-shadow: 0px 3px rgba(161, 161, 161, 0.336);
+  transform: scale(0.9);
 }
-header nav ul li:active{
+header nav ul li:active {
   transform: scale(0.8);
-
 }
-.selected{
+.selected {
   border-bottom: 4px black solid;
-  pointer-events:none;
+  pointer-events: none;
 }
-header div{
+header div {
   width: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-header div div{
+header div div {
   width: 80px;
   height: 35px;
   border-radius: 15px;
@@ -72,7 +73,7 @@ header div div{
   position: relative;
   transition: 0.25s;
 }
-header div div::before{
+header div div::before {
   content: "";
   width: 30px;
   height: 30px;
@@ -82,15 +83,14 @@ header div div::before{
   right: 0;
   border-radius: 50%;
   transition: 0.25s;
-
 }
-header div input{
+header div input {
   display: none;
 }
-header div input:checked +div{
+header div input:checked + div {
   background-color: #164e63;
 }
-header div input:checked +div::before{
+header div input:checked + div::before {
   left: 45px;
   background-color: rgb(255, 247, 0);
 }

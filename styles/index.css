@@ -17,16 +17,29 @@ body {
   transition: 0.25s;
 }
 :root {
-  --background: linear-gradient(135deg, #f7fff8, #ecfdf5, #dcfce7);
-  --background-inverse :linear-gradient(135deg, #020617, #0f172a, #164e63);
+  --background: linear-gradient(135deg, #f8fafc, #f0fdf4, #dcfce7);
+  --background-inverse: linear-gradient(135deg, #020617, #0f172a, #1e293b);
+
   --text: #0f172a;
-  --text-muted: #475569; 
-  --section-bg: rgba(255, 255, 255, 0.1);
+  --text-muted: #64748b;
+
+  --section-bg: rgba(255, 255, 255, 0.7);
+
+  --header-bg: rgba(255, 255, 255, 0.55);
+  --header-border: rgba(255, 255, 255, 0.35);
+  --header-shadow: rgba(15, 23, 42, 0.08);
 }
+
 .dark {
-  --background: linear-gradient(135deg, #020617, #0f172a, #164e63);
-  --background-inverse :linear-gradient(135deg, #f7fff8, #ecfdf5, #dcfce7);
+  --background: linear-gradient(135deg, #020617, #0f172a, #1e293b);
+  --background-inverse: linear-gradient(135deg, #f8fafc, #f0fdf4, #dcfce7);
+
   --text: #f8fafc;
-  --text-muted: #cbd5e1;
-  --section-bg: rgba(15, 23, 42, 0.1);
+  --text-muted: #94a3b8;
+
+  --section-bg: rgba(30, 41, 59, 0.7);
+
+  --header-bg: rgba(15, 23, 42, 0.55);
+  --header-border: rgba(148, 163, 184, 0.15);
+  --header-shadow: rgba(0, 0, 0, 0.35);
 }
