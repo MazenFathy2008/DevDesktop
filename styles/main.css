@@ -1,8 +1,10 @@
 main {
   width: 100%;
   height: 80%;
+  gap: 10rem;
   margin-top: 2%;
   padding: 2rem;
+  padding-bottom: 10rem;
   overflow-y: auto;
   border: 4px solid black;
   border-radius: 30px;
@@ -12,23 +14,30 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: auto;
+  justify-content: space-around;
+}
+main h1 {
+  margin: 5rem 0 0 0;
 }
 .welcoming {
   width: 100%;
   text-align: center;
   color: var(--text-muted);
 }
-.porpuse {
+.phone {
   width: fit-content;
   border-radius: 20px;
   height: 80%;
+  min-height: 350px;
+  max-height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 2px silver solid;
   overflow-y: auto;
 }
-.porpuse p {
+.phone p {
   text-align: justify;
   align-self: center;
   width: 370px;
@@ -37,7 +46,7 @@ main {
   padding: 7px;
   font-size: 1.25rem;
 }
-main .porpuse h2 {
+main .phone h2 {
   color: var(--text-muted);
   width: 370px;
   height: 10%;
@@ -51,7 +60,7 @@ main .porpuse h2 {
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
 }
-main .porpuse p {
+main .phone p {
   color: var(--text);
   margin: 0;
   border-bottom-left-radius: 18px;
@@ -74,4 +83,77 @@ p::-webkit-scrollbar-thumb {
 
 p::-webkit-scrollbar-thumb:hover {
   background: var(--text);
+}
+.scroll {
+  color: var(--text);
+  display: flex;
+  height: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.scroll h2 {
+  color: var(--text-muted);
+}
+.scroll div {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: space-between;
+}
+.scroll ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: auto;
+  width: 250px;
+  gap: 100px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.scroll ul li {
+  flex: 0 0 250px;
+  height: 250px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  border: 1px solid var(--header-border);
+  box-shadow: 0 8px 32px var(--header-shadow);
+  background-color: var(--card-bg);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.scroll ul::-webkit-scrollbar {
+  display: none;
+}
+.scroll .right {
+  transform: rotateY(180deg);
+}
+.scroll button img {
+  width: 50px;
+}
+.scroll button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.26s;
+}
+.scroll .right:hover {
+  transform: rotateY(180deg) scale(0.9);
+}
+.scroll button:hover {
+  transform: scale(0.9);
+}
+.scroll .right:active {
+  transform: scale(0.85) rotateY(180deg);
+}
+.scroll button:active {
+  transform: scale(0.85);
 }

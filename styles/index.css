@@ -28,6 +28,7 @@ body {
   --header-bg: rgba(255, 255, 255, 0.55);
   --header-border: rgba(255, 255, 255, 0.35);
   --header-shadow: rgba(15, 23, 42, 0.08);
+  --card-bg: rgba(223, 223, 223, 0.82);
 }
 
 .dark {
@@ -42,4 +43,5 @@ body {
   --header-bg: rgba(15, 23, 42, 0.55);
   --header-border: rgba(148, 163, 184, 0.15);
   --header-shadow: rgba(0, 0, 0, 0.35);
+  --card-bg: rgba(30, 41, 59, 0.82);
 }

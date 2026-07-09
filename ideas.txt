@@ -7,8 +7,9 @@
   - This page contain:
     1- Prefered code editior.
     2- Prefered browser.
-    3- projects.
-    4- prefered song folder.
+    3-prefered OS
+    5- projects.
+    6- prefered song folder.
 3- prefered song 
   - this page will contain:
     1- prefered songs
