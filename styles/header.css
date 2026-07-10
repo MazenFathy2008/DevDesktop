@@ -10,6 +10,7 @@ header {
   box-shadow: 0 8px 32px var(--header-shadow);
   display: flex;
   color: var(--text-muted);
+  z-index: 100;
 }
 header a {
   display: flex;
