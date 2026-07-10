@@ -2,7 +2,6 @@
   - This page contain:
     1- small description about prject.
     2- the content of the demo.
-    3- info about the developer.
 2- second page is the desktop itself.
   - This page contain:
     1- Prefered code editior.

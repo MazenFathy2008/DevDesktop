@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="/styles/main.css" />
   </head>
-  <body class="">
+  <body class="dark">
     <header>
       <a class="">
         <img src="./Gemini_Generated_Image_xrw02lxrw02lxrw0.png" />
@@ -16,13 +16,19 @@
       </a>
       <nav>
         <ul>
-          <li class="selected">HomePage</li>
-          <li>Desktop</li>
-          <li>Feedback</li>
+          <a href="./index.html">
+            <li class="selected">HomePage</li>
+          </a>
+          <a href="./desktop.html">
+            <li>Desktop</li>
+          </a>
+          <a href="">
+            <li>Feedback</li>
+          </a>
         </ul>
       </nav>
       <div>
-        <input type="checkbox" class="inputCheckBoxJs" />
+        <input type="checkbox" class="inputCheckBoxJs" checked />
         <div class="toggleThemeJs"></div>
       </div>
     </header>
@@ -51,7 +57,7 @@
       <section class="scroll">
         <h2>This demo contains</h2>
         <div>
-          <button class="left"><img src="Left Arrow.png" alt="Left"></button>
+          <button class="left"><img src="Left Arrow.png" alt="Left" /></button>
           <ul class="list">
             <li>Preferred Code Editor</li>
             <li>Preferred Browser</li>
@@ -59,8 +65,13 @@
             <li>Projects</li>
             <li>Preferred Music Folder</li>
           </ul>
-          <button class="right"><img src="Left Arrow.png" alt="right"></button>
+          <button class="right">
+            <img src="Left Arrow.png" alt="right" />
+          </button>
         </div>
+      </section>
+      <section class="a-section">
+        <a href="./desktop.html">Go to desktop Demo</a>
       </section>
     </main>
     <script src="./src/index.js" type="module"></script>

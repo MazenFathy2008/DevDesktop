@@ -21,6 +21,8 @@ header a {
   user-select: none;
   cursor: pointer;
   transition: 0.25s;
+  color:var(--text-muted);
+  text-decoration: none;
 }
 header a img {
   width: 150px;
