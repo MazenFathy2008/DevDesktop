@@ -45,3 +45,8 @@ body {
   --header-shadow: rgba(0, 0, 0, 0.35);
   --card-bg: rgba(30, 41, 59, 0.82);
 }
+@media (max-width: 768px) {
+  body{
+    overflow-y: auto;
+  }
+}
