@@ -19,7 +19,7 @@ body {
 :root {
   --background: linear-gradient(135deg, #f8fafc, #f0fdf4, #dcfce7);
   --background-inverse: linear-gradient(135deg, #020617, #0f172a, #1e293b);
-
+  
   --text: #0f172a;
   --text-muted: #64748b;
 
