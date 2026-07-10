@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="styles/to-do-list.css" />
+  </head>
+  <body>
+    <div class="screen-size">
+      <div class="input-div">
+        <span class="Header"> To do list</span>
+        <div class="input-field">
+          <span>Enter todo name</span>
+          <input class="to-do-input js-todo-input" placeholder="Todo name" />
+        </div>
+        <div class="input-field">
+          <span>Enter date</span>
+          <input type="date" class="date-input js-date-input" />
+        </div>
+        <div class="add-div">
+          <button class="add-button js-add-button">Add</button>
+        </div>
+      </div>
+      <div class="output-div">
+        <div class="Header">
+          <span> To Do </span>
+          <span> date </span>
+          <button class="delete-button js-delete-all">Delete All</button>
+        </div>
+        <div class="js-display-div finsh"></div>
+      </div>
+    </div>
+    <script src="script/to-do-list.js"></script>
+  </body>
+</html>

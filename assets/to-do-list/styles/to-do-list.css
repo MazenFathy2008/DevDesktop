@@ -1,0 +1,134 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 450px;
+  margin: 0;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  background-color: rgb(239, 217, 195);
+  color: rgb(30, 30, 30);
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+button{
+  cursor: pointer;
+}
+
+.screen-size {
+  width: 1012px;
+  height: 550px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+  first : styling the input div 
+*/
+.input-div{
+  display: flex;
+  flex-direction: column;
+  margin: 170px 70px;
+  width: 50%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.115);
+}
+.Header{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.input-field{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  
+}
+.input-field input {
+  width: 180px;
+  padding: 2px;
+  height: 17px;
+  outline: none;
+}
+.add-div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 ;
+}
+.add-button{
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/*
+  seconde : styling the output div 
+*/
+.output-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 10px 25px 10px 25px;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.115);
+}
+
+
+.output{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.output,
+.output-div .Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.date,
+.todo-name{
+  font-size: 12px;
+
+}
+.Header .delete-button,
+.delete-button{
+  background-color: darkred;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 12px;
+}
+.Header .delete-button{
+  background-color: rgb(0, 0, 0);
+  border-radius: 2px;
+}
+.finsh{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.todo-name{
+ width: 100px;
+}
+

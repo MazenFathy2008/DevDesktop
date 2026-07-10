@@ -26,7 +26,8 @@ main h1 {
   color: var(--text-muted);
 }
 .phone {
-  width: fit-content;
+  text-align: justify;
+  width: 100%;
   border-radius: 20px;
   height: 80%;
   min-height: 350px;
@@ -38,13 +39,12 @@ main h1 {
   overflow-y: auto;
 }
 .phone p {
-  text-align: justify;
   align-self: center;
-  width: 370px;
+  width: 100%;
   height: 100%;
   overflow-y: auto;
   padding: 7px;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 main .phone h2 {
   color: var(--text-muted);
@@ -158,8 +158,8 @@ p::-webkit-scrollbar-thumb:hover {
   transform: scale(0.85);
 }
 
-main a{
-  color:blue;
+main a {
+  color: blue;
   font-weight: bold;
   width: 100%;
   height: 100px;
@@ -168,13 +168,13 @@ main a{
   align-items: center;
   padding: 10px;
   text-decoration: none;
-  color:var(--text-muted);
+  color: var(--text-muted);
   border: 1px solid var(--header-border);
   box-shadow: 0 8px 32px var(--header-shadow);
   background-color: var(--card-bg);
   border-radius: 10px;
 }
-.a-section{
+.a-section {
   height: 100px;
   display: flex;
   justify-content: center;
@@ -182,11 +182,10 @@ main a{
   background-color: var(--card-bg);
   border-radius: 10px;
   transition: 0.25s;
-
 }
-.a-section:hover{
+.a-section:hover {
   transform: scale(0.9);
 }
-.a-section:active{
+.a-section:active {
   transform: scale(0.85);
 }

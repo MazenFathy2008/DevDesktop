@@ -29,6 +29,8 @@ main section a{
   flex-direction: column;
   transition: 0.25s;
   cursor: pointer;
+  color: var(--text);
+  text-decoration:none ;
 }
 main section a img{
   width: 80px;
