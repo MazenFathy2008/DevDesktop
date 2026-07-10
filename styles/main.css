@@ -197,6 +197,9 @@ main a {
     padding: 1rem;
     padding-bottom: 3rem;
     border-radius: 15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
   }
 
   main h1 {
@@ -213,6 +216,8 @@ main a {
     min-height: auto;
     max-height: none;
     height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .phone h2 {

@@ -161,6 +161,8 @@ main section div img {
     height: auto;
     margin-top: 1rem;
     border-radius: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   main section {
@@ -168,6 +170,9 @@ main section div img {
     grid-auto-rows: minmax(120px, auto);
     gap: 15px;
     padding: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
   }
 
 
