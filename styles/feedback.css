@@ -69,3 +69,8 @@ main section button:active{
   transform: scale(0.9);
   box-shadow: 0 0 15px var(--btn-bg);
 }
+@media (max-width: 768px){
+  main section{
+    width: 100%;
+  }
+}
