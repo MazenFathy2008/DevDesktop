@@ -1,0 +1,66 @@
+main {
+  width: 100%;
+  height: 80%;
+  margin-top: 2%;
+  overflow-y: auto;
+  border: 4px solid black;
+  border-radius: 30px;
+  background-color: var(--section-bg);
+  backdrop-filter: blur(70px);
+  box-shadow: 0 0 10px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  justify-content: space-around;
+}
+main form{
+  width: 25%;
+  background: var(  --form-bg);
+  height: 85%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  color: var(--text);
+}
+main form div{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+main form input{
+  outline: none;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  border:none;
+  padding: 5px;
+  font-size: 1.25rem;
+  transition: 0.25s;
+}
+main form input:focus{
+  box-shadow: 0 0 10px var(--btn-bg);
+}
+main form button{
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border:none;
+  background-color: var(--btn-bg);
+  box-shadow: 0 0 6px var(--btn-bg);
+  transition: 0.25s;
+}
+main form button:hover{
+  box-shadow: 0 0 10px var(--btn-bg);
+}
+main form button:active{
+  transform: scale(0.9);
+  box-shadow: 0 0 15px var(--btn-bg);
+}

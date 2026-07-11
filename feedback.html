@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevDesktop</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/feedback.css" />
+  </head>
+  <body class="dark">
+    <header>
+      <a href="./index.html">
+        <img src="./assets/Gemini_Generated_Image_xrw02lxrw02lxrw0.png" />
+        DevDesktop
+      </a>
+      <nav>
+        <ul>
+          <a href="./index.html">
+            <li>HomePage</li>
+          </a>
+          <a href="./desktop.html">
+            <li>Desktop</li>
+          </a>
+          <a href="./feedback.html">
+            <li class="selected">Feedback</li>
+          </a>
+        </ul>
+      </nav>
+      <div>
+        <input type="checkbox" class="inputCheckBoxJs" checked />
+        <div class="toggleThemeJs"></div>
+      </div>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label for="name">Enter your name (not required)</label>
+          <input id="name" type="text" />
+        </div>
+        <div>
+          <label for="feedback">Write youe feedback</label>
+          <input id="feedback" type="text" />
+        </div>
+        <button type="button">Send feedback</button>
+      </form>
+    </main>
+    <script src="./src/feedback.js" type="module"></script>
+  </body>
+</html>

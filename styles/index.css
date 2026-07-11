@@ -19,7 +19,7 @@ body {
 :root {
   --background: linear-gradient(135deg, #f8fafc, #f0fdf4, #dcfce7);
   --background-inverse: linear-gradient(135deg, #020617, #0f172a, #1e293b);
-  
+
   --text: #0f172a;
   --text-muted: #64748b;
 
@@ -29,6 +29,8 @@ body {
   --header-border: rgba(255, 255, 255, 0.35);
   --header-shadow: rgba(15, 23, 42, 0.08);
   --card-bg: rgba(223, 223, 223, 0.82);
+  --form-bg: linear-gradient(135deg, #e5e5e5, #a5bbad);
+  --btn-bg: rebeccapurple;
 }
 
 .dark {
@@ -44,9 +46,16 @@ body {
   --header-border: rgba(148, 163, 184, 0.15);
   --header-shadow: rgba(0, 0, 0, 0.35);
   --card-bg: rgba(30, 41, 59, 0.82);
+  --form-bg: linear-gradient(
+    135deg,
+    rgba(30, 41, 59, 0.95),
+    rgba(15, 23, 42, 0.95)
+  );
+  --btn-bg: greenyellow;
+
 }
 @media (max-width: 768px) {
-  body{
+  body {
     overflow-y: auto;
   }
 }
