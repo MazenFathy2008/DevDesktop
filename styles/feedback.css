@@ -14,7 +14,7 @@ main {
   overflow-y: auto;
   justify-content: space-around;
 }
-main form{
+main section{
   width: 25%;
   background: var(  --form-bg);
   height: 85%;
@@ -26,7 +26,7 @@ main form{
   padding: 2rem;
   color: var(--text);
 }
-main form div{
+main section div{
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,8 @@ main form div{
   gap: 1rem;
   width: 100%;
 }
-main form input{
+main section textarea,
+main section input{
   outline: none;
   height: 50px;
   width: 100%;
@@ -45,10 +46,14 @@ main form input{
   font-size: 1.25rem;
   transition: 0.25s;
 }
-main form input:focus{
+main section textarea{
+  height: 70%;
+}
+main section textarea:focus,
+main section input:focus{
   box-shadow: 0 0 10px var(--btn-bg);
 }
-main form button{
+main section button{
   height: 50px;
   width: 100px;
   border-radius: 10px;
@@ -57,10 +62,10 @@ main form button{
   box-shadow: 0 0 6px var(--btn-bg);
   transition: 0.25s;
 }
-main form button:hover{
+main section button:hover{
   box-shadow: 0 0 10px var(--btn-bg);
 }
-main form button:active{
+main section button:active{
   transform: scale(0.9);
   box-shadow: 0 0 15px var(--btn-bg);
 }
